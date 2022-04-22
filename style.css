@@ -2,6 +2,7 @@
 * {
   box-sizing: border-box;
   border: thin solid red;
+  margin: 0;
 }
 menu{
   padding-left: 0;
