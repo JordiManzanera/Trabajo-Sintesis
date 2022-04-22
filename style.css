@@ -4,7 +4,7 @@
   border: thin solid red;
 }
 menu{
-  padding: 0;
+  padding-left: -40px;
 }
 #menu{
   position: relative;
