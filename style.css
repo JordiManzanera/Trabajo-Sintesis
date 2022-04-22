@@ -1,6 +1,13 @@
+
 * {
   box-sizing: border-box;
   border: thin solid red;
+}
+
+#menu{
+  position: relative;
+  background-color: black;
+  color: white;
 }
 
 #menu > ul {
@@ -13,24 +20,43 @@
 #menu > ul > li {
   display: inline-block;
   padding: 0.5em;
-  border-left: thin solid lightgray;
+  padding: 1em;
+  margin-right: 1em;
 }
 
 #arduino{
   float: left;
+  font-family: cursive;
+  font-weight: bold;
+  font-size: 20px;
+
 }
 
 #intro{
   position: relative;
   width: 100%;
-  height: 26em;
+  height: 28em;
   background-color: #f27108;
+  padding: 3em;
+}
+
+#intro input{
+  margin-top: 2em;
+  border-radius: 25px;
+  background-color: black;
+  color: white;
+  font-size: 1em;
+  font-weight: bold;
+  padding: 1em;
+  padding-left: 3em;
+  padding-right: 3em;
+
 }
 
 #intro img{
   position: relative;
   float: right;
-  margin: 2em;
+  margin: ;
 }
 
 #titulo{
@@ -45,4 +71,41 @@
   color: black;
   margin-top: 2em;
   width: 700px;
+}
+
+#pasos{
+
+}
+
+#titulo-pasos{
+  text-align: center;
+  font-size: 2em;
+  font-weight: bold;
+  padding: 2em;
+
+}
+
+#grid{
+  position: relative;
+  grid-template-columns: 1fr 1fr 1fr;
+  display: grid;
+}
+
+.grid-content{
+text-align: center;
+padding: 2em;
+}
+
+.circle{
+
+display: inline-block;
+padding-top: 40px;
+
+height:100px;
+width:100px;
+background:white
+-moz-border-radius:50px;
+-webkit-border-radius:50px;
+border-radius:50px;
+text-align: center;
 }
