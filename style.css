@@ -3,7 +3,9 @@
   box-sizing: border-box;
   border: thin solid red;
 }
-
+menu{
+  padding: 0;
+}
 #menu{
   position: relative;
   background-color: black;
