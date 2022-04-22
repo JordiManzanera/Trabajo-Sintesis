@@ -4,6 +4,9 @@
   border: thin solid red;
   margin: 0;
 }
+html {
+  padding: 0;
+}
 menu{
   padding-left: 0;
 }
