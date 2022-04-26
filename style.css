@@ -1,3 +1,4 @@
+
 * {
   box-sizing: border-box;
   border: thin solid red;
@@ -101,6 +102,7 @@ text-align: center;
 padding: 2em;
 }
 
+<<<<<<< HEAD
 #arrow{
   position: absolute;
   right: 38em;
@@ -123,6 +125,8 @@ padding: 2em;
   font-size: 50px;
 }
 
+=======
+>>>>>>> eb82c9af4dac92f778c4ebe46aa21abc4002f23f
 .circle{
 
 display: inline-block;
@@ -130,11 +134,18 @@ padding-top: 40px;
 
 height:100px;
 width:100px;
+<<<<<<< HEAD
 background: white;
 border: thin solid black;
+=======
+background:white
+>>>>>>> eb82c9af4dac92f778c4ebe46aa21abc4002f23f
 -moz-border-radius:50px;
 -webkit-border-radius:50px;
 border-radius:50px;
 text-align: center;
+<<<<<<< HEAD
 font-size: 13.5px;
+=======
+>>>>>>> eb82c9af4dac92f778c4ebe46aa21abc4002f23f
 }
