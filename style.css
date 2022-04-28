@@ -130,7 +130,7 @@ display: inline-block;
 padding-top: 40px;
 
 height:100px;
-width:110px;
+width:100px;
 background: white;
 border: thin solid black;
 background:white
@@ -138,5 +138,35 @@ background:white
 -webkit-border-radius:50px;
 border-radius:50px;
 text-align: center;
-font-size: 13.5px;
+font-size: 11.5px;
+}
+
+#titulo-idea{
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+#grid-desarrollo {
+  position: relative;
+  grid-template-columns: 1fr 1fr;
+  display: grid;
+}
+
+#grid-desarrollo li {
+  padding: 1em;
+  list-style: none;
+
+}
+
+#grid-desarrollo li > i {
+  padding: 0.5em;
+  font-size: 20px;
+
+}
+
+#desarrollo-titulo {
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
 }
