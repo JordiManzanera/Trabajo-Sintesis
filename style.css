@@ -80,7 +80,8 @@ menu{
 }
 
 #pasos{
-
+background-color: black;
+color: white;
 }
 
 #titulo-pasos{
@@ -89,6 +90,16 @@ menu{
   font-weight: bold;
   padding: 2em;
 
+}
+
+
+
+.content-idea{
+  padding: 15px;
+}
+
+#borde{
+  border-bottom: black 8px outset;
 }
 
 #grid{
@@ -100,6 +111,7 @@ menu{
 .grid-content{
 text-align: center;
 padding: 2em;
+background-color:
 }
 
 #arrow{
@@ -132,19 +144,31 @@ padding-top: 40px;
 height:100px;
 width:100px;
 background: white;
-border: thin solid black;
-background:white
+border: thin solid #f27108;
+background: #f27108;
 -moz-border-radius:50px;
 -webkit-border-radius:50px;
 border-radius:50px;
 text-align: center;
 font-size: 11.5px;
+color: black;
+
+}
+
+#idea {
+  background-color: #f5f5dc;
 }
 
 #titulo-idea{
+  padding: 1em;
   text-align: center;
   font-weight: bold;
   font-size: 30px;
+  border-bottom: black 8px outset;
+}
+
+#desarrollo{
+  background-color: #f5f5dc;
 }
 
 #grid-desarrollo {
@@ -156,7 +180,6 @@ font-size: 11.5px;
 #grid-desarrollo li {
   padding: 1em;
   list-style: none;
-
 }
 
 #grid-desarrollo li > i {
@@ -169,4 +192,17 @@ font-size: 11.5px;
   text-align: center;
   font-weight: bold;
   font-size: 30px;
+  padding: 1em;
+}
+
+#titulo-materiales{
+  padding: 1em;
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.imagenes-materiales img{
+  width: 120px;
+  height: 120px;
 }
