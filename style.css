@@ -92,13 +92,11 @@ color: white;
 
 }
 
-
-
 .content-idea{
   padding: 15px;
 }
 
-#borde{
+.borde{
   border-bottom: black 8px outset;
 }
 
@@ -116,7 +114,7 @@ background-color:
 
 #arrow{
   position: absolute;
-  right: 25em;
+  right: 36em;
   top: 3.5em;
 }
 
@@ -127,7 +125,7 @@ background-color:
 
 #arrow2{
   position: absolute;
-  right: 51em;
+  right: 74.5em;
   top: 3.5em;
 }
 
@@ -175,6 +173,16 @@ color: black;
   position: relative;
   grid-template-columns: 1fr 1fr;
   display: grid;
+  border-top: black 8px inset;
+  border-bottom: black 8px outset;
+  padding-left: 20em;
+  padding-right: 20em;
+}
+
+#grid-desarrollo img{
+  position: absolute;
+  width: 230px;
+  height: 230px;
 }
 
 #grid-desarrollo li {
@@ -195,6 +203,10 @@ color: black;
   padding: 1em;
 }
 
+#materiales{
+  background-color: #f5f5dc;
+}
+
 #titulo-materiales{
   padding: 1em;
   text-align: center;
@@ -202,7 +214,64 @@ color: black;
   font-size: 30px;
 }
 
+.imagenes-materiales{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
 .imagenes-materiales img{
   width: 120px;
   height: 120px;
+  padding: 1em;
+  margin: auto;
+  display: block;
+  border: black 5px inset;
+}
+
+.imagenes-materiales a{
+  padding: 1em;
+}
+
+#footer {
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  display: grid;
+  padding-left: 7px;
+  padding-right: 7px;
+  background-color: #1e1b19;
+  color: white;
+  list-style-type: none;
+  font-size: 20px;
+  }
+
+  #footer ul {
+  padding: 1em;
+  list-style-type: none;
+  font-size: 20px;
+  }
+
+  #footer ul li {
+  padding: 0.5em;
+  list-style-type: none;
+  font-size: 20px;
+  }
+
+  #footer button {
+    position: relative;
+    text-align: center;
+    padding:0.8em 1.2em;
+    background-color:#1e1b19;
+    color:grey;
+    font-weight: bold;
+    font-size: 20px;
+    border:thin solid #f27108;
+  }
+
+#amarillo {
+background-color: #f27108;
+text-align: center;
+padding: 1em;
+}
+
+#amarillo h3 {
+  font-weight: normal;
 }
