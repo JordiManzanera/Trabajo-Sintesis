@@ -148,7 +148,7 @@ background: #f27108;
 -webkit-border-radius:50px;
 border-radius:50px;
 text-align: center;
-font-size: 11.5px;
+font-size: 13px;
 color: black;
 
 }
@@ -181,8 +181,8 @@ color: black;
 
 #grid-desarrollo img{
   position: absolute;
-  width: 230px;
-  height: 230px;
+  width: 220px;
+  height: 220px;
 }
 
 #grid-desarrollo li {
@@ -241,6 +241,11 @@ color: black;
   color: white;
   list-style-type: none;
   font-size: 20px;
+  }
+
+  #footer img{
+    width: 200px;
+    height: 180px;
   }
 
   #footer ul {
