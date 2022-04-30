@@ -256,7 +256,7 @@ color: black;
   #footer ul li {
   padding: 0.5em;
   list-style-type: none;
-  font-size: 20px;
+  font-size: 12px;
   }
 
   #footer button {
@@ -266,7 +266,7 @@ color: black;
     background-color:#1e1b19;
     color:grey;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 10px;
     border:thin solid #f27108;
   }
 
