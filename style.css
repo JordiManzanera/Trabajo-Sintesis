@@ -109,29 +109,28 @@ color: white;
 .grid-content{
 text-align: center;
 padding: 2em;
-background-color:
 }
 
 #arrow{
   position: absolute;
-  right: 36em;
+  right: 36.5em;
   top: 3.5em;
 }
 
 #arrow i{
   color: red;
-  font-size: 50px;
+  font-size: 70px;
 }
 
 #arrow2{
   position: absolute;
-  right: 74.5em;
+  right: 75.6em;
   top: 3.5em;
 }
 
 #arrow2 i{
   color: red;
-  font-size: 50px;
+  font-size: 70px;
 }
 
 .circle{
