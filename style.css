@@ -36,9 +36,8 @@ menu{
 
 #arduino{
   float: left;
-  font-family: cursive;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 18px;
 
 }
 
@@ -253,7 +252,7 @@ color: black;
   padding: 1em;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  padding-left: 8em;
+  padding-left: 16.5em;
 
 }
 
