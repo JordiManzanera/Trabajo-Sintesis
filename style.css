@@ -165,6 +165,7 @@ color: black;
   font-weight: bold;
   font-size: 30px;
   border-bottom: black 8px outset;
+  background-color: #f6ddcc;
 }
 
 #desarrollo{
@@ -176,9 +177,8 @@ color: black;
   grid-template-columns: 1fr 1fr;
   display: grid;
   border-top: black 8px inset;
-  border-bottom: black 8px outset;
-  padding-left: 8em;
-  padding-right: 8em;
+  padding-left: 20em;
+  padding-right: 20em;
 }
 
 #grid-desarrollo img{
@@ -187,15 +187,18 @@ color: black;
   height: 220px;
 }
 
+#grid-desarrollo ul{
+  padding-left:
+}
+
 #grid-desarrollo li {
   padding: 1em;
   list-style: none;
 }
 
 #grid-desarrollo li > i {
-  padding: 0.5em;
+  padding: 1em;
   font-size: 20px;
-
 }
 
 #desarrollo-titulo {
@@ -203,6 +206,7 @@ color: black;
   font-weight: bold;
   font-size: 30px;
   padding: 1em;
+  background-color: #f6ddcc;
 }
 
 #materiales{
@@ -215,6 +219,9 @@ color: black;
   text-align: center;
   font-weight: bold;
   font-size: 30px;
+  background-color: #f6ddcc;
+  border-top: black 8px inset;
+  border-bottom: black 8px outset;
 }
 
 .imagenes-materiales{
@@ -235,6 +242,37 @@ color: black;
   padding: 1em;
 }
 
+.imagenes-materiales i {
+  margin-left: 18em;
+
+}
+
+#codigo{
+  background-color: #f5f5dc;
+}
+
+#titulo-codigo{
+  padding: 1em;
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+  background-color: #f6ddcc;
+}
+
+#imagen-codigo{
+  padding: 1em;
+  display: grid;
+  grid-template-columns: 1fr;
+  padding-right: 16em;
+  border-top: black 5px inset;
+}
+
+#imagen-codigo img{
+  padding: 1em;
+  border: black 5px inset;
+}
+
+
 #esquemas{
   background-color: #f5f5dc;
   border-bottom: black 8px outset;
@@ -245,6 +283,8 @@ color: black;
   text-align: center;
   font-weight: bold;
   font-size: 30px;
+  background-color: #f6ddcc;
+  border-top: black 8px inset;
   border-bottom: black 8px outset;
 }
 
