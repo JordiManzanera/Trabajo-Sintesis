@@ -261,9 +261,7 @@ color: black;
 
 #imagen-codigo{
   padding: 1em;
-  display: grid;
-  grid-template-columns: 1fr;
-  padding-right: 16em;
+  padding-left: 26.5em;
   border-top: black 5px inset;
 }
 
@@ -346,10 +344,6 @@ color: black;
     border:thin solid #f27108;
   }
 
-  #derecha img{
-    width: 160px;
-    height: 45px;
-  }
 
 #naranja {
 background-color: #f27108;
