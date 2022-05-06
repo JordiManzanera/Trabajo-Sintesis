@@ -1,7 +1,6 @@
 
 * {
   box-sizing: border-box;
-  border: thin solid red;
   margin: 0;
 }
 html {
@@ -298,6 +297,11 @@ color: black;
   border: black 5px inset;
   padding: 1em;
 }
+
+#descripcion{
+  background-color: #f5f5dc;
+}
+
 
 
 #footer {
