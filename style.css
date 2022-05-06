@@ -246,6 +246,10 @@ color: black;
 
 }
 
+.enlaces{
+  padding: 3em;
+}
+
 #codigo{
   background-color: #f5f5dc;
 }
