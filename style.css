@@ -11,7 +11,7 @@ menu{
 }
 #menu{
   position: relative;
-  background-color: black;
+  background-color: #273746;
   color: white;
 }
 
@@ -44,7 +44,7 @@ menu{
   position: relative;
   width: 100%;
   height: 28em;
-  background-color: #f27108;
+  background-color: #dc7633;
   padding: 3em;
 }
 
@@ -82,7 +82,7 @@ menu{
 }
 
 #pasos{
-background-color: black;
+background-color: #273746;
 color: white;
 }
 
@@ -144,7 +144,7 @@ height:100px;
 width:100px;
 background: white;
 border: thin solid #f27108;
-background: #f27108;
+background: #dc7633;
 -moz-border-radius:50px;
 -webkit-border-radius:50px;
 border-radius:50px;
@@ -309,7 +309,7 @@ color: black;
   display: grid;
   padding-left: 7px;
   padding-right: 7px;
-  background-color: #1e1b19;
+  background-color: #273746;
   color: white;
   list-style-type: none;
   font-size: 20px;
@@ -350,7 +350,7 @@ color: black;
 
 
 #naranja {
-background-color: #f27108;
+background-color: #dc7633;
 text-align: center;
 padding: 1em;
 }
