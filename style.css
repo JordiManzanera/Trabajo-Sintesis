@@ -307,6 +307,27 @@ color: black;
 }
 
 
+#conclusion{
+  background-color: #f5f5dc;
+  border-bottom: black 8px outset;
+}
+
+#conclusion-titulo{
+  padding: 1em;
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+  background-color: #f6ddcc;
+  border-top: black 8px inset;
+  border-bottom: black 8px outset;
+}
+
+.content-conclusion{
+  padding: 15px;
+}
+
+
+
 
 #footer {
   grid-template-columns: 1fr 1fr 1fr 1fr;
