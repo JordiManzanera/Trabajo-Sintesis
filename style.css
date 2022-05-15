@@ -317,3 +317,326 @@ padding: 1em;
 #amarillo h3 {
   font-weight: normal;
 }
+
+@media (max-width: 1024px) {
+
+
+  * {
+    box-sizing: border-box;
+    border: thin solid red;
+    width: 100%;
+  }
+  html {
+    padding: 0;
+  }
+  menu{
+    padding-left: 0;
+  }
+  #menu{
+    position: relative;
+    background-color: black;
+    color: white;
+  }
+
+  #menu > ul {
+    text-align: right;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+
+  #menu > ul > li {
+    display: inline-block;
+    padding: 0.5em;
+    padding: 1em;
+    margin-right: 1em;
+  }
+
+  #arduino{
+    float: left;
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 20px;
+
+  }
+
+  #intro{
+    position: relative;
+    width: 100%;
+    height: 28em;
+    background-color: #f27108;
+    padding: 3em;
+  }
+
+  #intro input{
+    margin-top: 2em;
+    border-radius: 25px;
+    background-color: black;
+    color: white;
+    font-size: 1em;
+    font-weight: bold;
+    padding: 1em;
+    padding-left: 3em;
+    padding-right: 3em;
+
+  }
+
+  #intro img{
+    position: relative;
+    float: right;
+    margin: ;
+  }
+
+  #titulo{
+    font-weight: bold;
+    font-size: 25px;
+    width: 250px;
+    margin-top: 3em;
+  }
+
+  #subtitulo{
+    font-size: 15px;
+    color: black;
+    margin-top: 2em;
+    width: 700px;
+  }
+
+  #pasos{
+  background-color: black;
+  color: white;
+  }
+
+  #titulo-pasos{
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    padding: 2em;
+
+  }
+
+  .content-idea{
+    padding: 15px;
+  }
+
+  .borde{
+    border-bottom: black 8px outset;
+  }
+
+  #grid{
+    position: relative;
+    grid-template-columns: 1fr 1fr 1fr;
+    display: grid;
+  }
+
+  .grid-content{
+  text-align: center;
+  padding: 2em;
+  }
+
+  #arrow{
+    position: absolute;
+    right: 36.5em;
+    top: 3.5em;
+  }
+
+  #arrow i{
+    color: red;
+    font-size: 70px;
+  }
+
+  #arrow2{
+    position: absolute;
+    right: 75.6em;
+    top: 3.5em;
+  }
+
+  #arrow2 i{
+    color: red;
+    font-size: 70px;
+  }
+
+  .circle{
+
+  display: inline-block;
+  padding-top: 40px;
+
+  height:100px;
+  width:100px;
+  background: white;
+  border: thin solid #f27108;
+  background: #f27108;
+  -moz-border-radius:50px;
+  -webkit-border-radius:50px;
+  border-radius:50px;
+  text-align: center;
+  font-size: 13px;
+  color: black;
+
+  }
+
+  #idea {
+    background-color: #f5f5dc;
+  }
+
+  #titulo-idea{
+    padding: 1em;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    border-bottom: black 8px outset;
+  }
+
+  #desarrollo{
+    background-color: #f5f5dc;
+  }
+
+  #grid-desarrollo {
+    position: relative;
+    grid-template-columns: 1fr 1fr;
+    display: grid;
+    border-top: black 8px inset;
+    border-bottom: black 8px outset;
+    padding-left: 8em;
+    padding-right: 8em;
+  }
+
+  #grid-desarrollo img{
+    position: absolute;
+    width: 220px;
+    height: 220px;
+  }
+
+  #grid-desarrollo li {
+    padding: 1em;
+    list-style: none;
+  }
+
+  #grid-desarrollo li > i {
+    padding: 0.5em;
+    font-size: 20px;
+
+  }
+
+  #desarrollo-titulo {
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    padding: 1em;
+  }
+
+  #materiales{
+    background-color: #f5f5dc;
+    border:
+  }
+
+  #titulo-materiales{
+    padding: 1em;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+  }
+
+  .imagenes-materiales{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+  }
+
+  .imagenes-materiales img{
+    width: 120px;
+    height: 120px;
+    padding: 1em;
+    margin: auto;
+    display: block;
+    border: black 5px inset;
+  }
+
+  .imagenes-materiales a{
+    padding: 1em;
+  }
+
+  #esquemas{
+    background-color: #f5f5dc;
+    border-bottom: black 8px outset;
+  }
+
+  #esquema-titulo{
+    padding: 1em;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    border-bottom: black 8px outset;
+  }
+
+  #imagenes-esquema {
+    padding: 1em;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-left: 8em;
+
+  }
+
+  #imagenes-esquema img{
+    border: black 5px inset;
+    padding: 1em;
+  }
+
+
+  #footer {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    display: grid;
+    padding-left: 7px;
+    padding-right: 7px;
+    background-color: #1e1b19;
+    color: white;
+    list-style-type: none;
+    font-size: 20px;
+    }
+
+    #footer img{
+      width: 200px;
+      height: 180px;
+    }
+
+    #footer ul {
+    padding: 1em;
+    list-style-type: none;
+    font-size: 20px;
+    }
+
+    #footer ul li {
+    padding: 0.5em;
+    list-style-type: none;
+    font-size: 12px;
+    }
+
+    #correos{
+      font-size: 12px;
+      padding: 0.5em;
+    }
+
+    #footer button {
+      position: relative;
+      text-align: center;
+      padding:0.8em 1.2em;
+      background-color:#1e1b19;
+      color:grey;
+      font-weight: bold;
+      font-size: 10px;
+      border:thin solid #f27108;
+    }
+
+    #derecha img{
+      width: 160px;
+      height: 45px;
+    }
+
+  #amarillo {
+  background-color: #f27108;
+  text-align: center;
+  padding: 1em;
+  }
+
+  #amarillo h3 {
+    font-weight: normal;
+  }
+}
