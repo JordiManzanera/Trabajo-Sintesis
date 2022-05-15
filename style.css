@@ -1,7 +1,6 @@
 
 * {
   box-sizing: border-box;
-  border: thin solid red;
   margin: 0;
 }
 html {
@@ -12,7 +11,7 @@ menu{
 }
 #menu{
   position: relative;
-  background-color: black;
+  background-color: #273746;
   color: white;
 }
 
@@ -30,11 +29,15 @@ menu{
   margin-right: 1em;
 }
 
+#menu > ul > li > a{
+  color: white;
+  text-decoration:none;
+}
+
 #arduino{
   float: left;
-  font-family: cursive;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 18px;
 
 }
 
@@ -42,7 +45,7 @@ menu{
   position: relative;
   width: 100%;
   height: 28em;
-  background-color: #f27108;
+  background-color: #dc7633;
   padding: 3em;
 }
 
@@ -80,7 +83,7 @@ menu{
 }
 
 #pasos{
-background-color: black;
+background-color: #273746;
 color: white;
 }
 
@@ -113,23 +116,23 @@ padding: 2em;
 
 #arrow{
   position: absolute;
-  right: 36.5em;
+  right: 34.8em;
   top: 3.5em;
 }
 
 #arrow i{
-  color: red;
+  color: #c0392b;
   font-size: 70px;
 }
 
 #arrow2{
   position: absolute;
-  right: 75.6em;
+  right: 73.6em;
   top: 3.5em;
 }
 
 #arrow2 i{
-  color: red;
+  color: #c0392b;
   font-size: 70px;
 }
 
@@ -142,7 +145,7 @@ height:100px;
 width:100px;
 background: white;
 border: thin solid #f27108;
-background: #f27108;
+background: #dc7633;
 -moz-border-radius:50px;
 -webkit-border-radius:50px;
 border-radius:50px;
@@ -162,6 +165,7 @@ color: black;
   font-weight: bold;
   font-size: 30px;
   border-bottom: black 8px outset;
+  background-color: #f6ddcc;
 }
 
 #desarrollo{
@@ -173,9 +177,8 @@ color: black;
   grid-template-columns: 1fr 1fr;
   display: grid;
   border-top: black 8px inset;
-  border-bottom: black 8px outset;
-  padding-left: 8em;
-  padding-right: 8em;
+  padding-left: 20em;
+  padding-right: 20em;
 }
 
 #grid-desarrollo img{
@@ -184,15 +187,18 @@ color: black;
   height: 220px;
 }
 
+#grid-desarrollo ul{
+  padding-left:
+}
+
 #grid-desarrollo li {
   padding: 1em;
   list-style: none;
 }
 
 #grid-desarrollo li > i {
-  padding: 0.5em;
+  padding: 1em;
   font-size: 20px;
-
 }
 
 #desarrollo-titulo {
@@ -200,6 +206,7 @@ color: black;
   font-weight: bold;
   font-size: 30px;
   padding: 1em;
+  background-color: #f6ddcc;
 }
 
 #materiales{
@@ -212,6 +219,9 @@ color: black;
   text-align: center;
   font-weight: bold;
   font-size: 30px;
+  background-color: #f6ddcc;
+  border-top: black 8px inset;
+  border-bottom: black 8px outset;
 }
 
 .imagenes-materiales{
@@ -232,6 +242,39 @@ color: black;
   padding: 1em;
 }
 
+.imagenes-materiales i {
+  margin-left: 18em;
+
+}
+
+.enlaces{
+  padding: 3em;
+}
+
+#codigo{
+  background-color: #f5f5dc;
+}
+
+#titulo-codigo{
+  padding: 1em;
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+  background-color: #f6ddcc;
+}
+
+#imagen-codigo{
+  padding: 1em;
+  padding-left: 26.5em;
+  border-top: black 5px inset;
+}
+
+#imagen-codigo img{
+  padding: 1em;
+  border: black 5px inset;
+}
+
+
 #esquemas{
   background-color: #f5f5dc;
   border-bottom: black 8px outset;
@@ -242,6 +285,8 @@ color: black;
   text-align: center;
   font-weight: bold;
   font-size: 30px;
+  background-color: #f6ddcc;
+  border-top: black 8px inset;
   border-bottom: black 8px outset;
 }
 
@@ -249,7 +294,7 @@ color: black;
   padding: 1em;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  padding-left: 8em;
+  padding-left: 16.5em;
 
 }
 
@@ -258,13 +303,39 @@ color: black;
   padding: 1em;
 }
 
+#descripcion{
+  background-color: #f5f5dc;
+}
+
+
+#conclusion{
+  background-color: #f5f5dc;
+  border-bottom: black 8px outset;
+}
+
+#conclusion-titulo{
+  padding: 1em;
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+  background-color: #f6ddcc;
+  border-top: black 8px inset;
+  border-bottom: black 8px outset;
+}
+
+.content-conclusion{
+  padding: 15px;
+}
+
+
+
 
 #footer {
   grid-template-columns: 1fr 1fr 1fr 1fr;
   display: grid;
   padding-left: 7px;
   padding-right: 7px;
-  background-color: #1e1b19;
+  background-color: #273746;
   color: white;
   list-style-type: none;
   font-size: 20px;
@@ -303,18 +374,14 @@ color: black;
     border:thin solid #f27108;
   }
 
-  #derecha img{
-    width: 160px;
-    height: 45px;
-  }
 
-#amarillo {
-background-color: #f27108;
+#naranja {
+background-color: #dc7633;
 text-align: center;
 padding: 1em;
 }
 
-#amarillo h3 {
+#naranja h3 {
   font-weight: normal;
 }
 

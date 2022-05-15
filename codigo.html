@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/fontawesome/css/all.min.css"/>
+  </head>
+  <body>
+    <menu></menu>
+
+
+
+    <div id="codigo">
+            <div id="titulo-codigo">CÓDIGO</div>
+            <div id="imagen-codigo">
+              <!-- <img src="img/codigo.png" width="900px" height="810px"> -->
+
+
+      <!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #557799">#include &lt;Servo.h&gt;</span>
+
+      Servo handServo;
+      Servo boxServo;
+
+      <span style="color: #333399; font-weight: bold">int</span> switchStatus<span style="color: #333333">=</span><span style="color: #0000DD; font-weight: bold">0</span>, action<span style="color: #333333">=</span><span style="color: #0000DD; font-weight: bold">0</span>, vot, randNumber<span style="color: #333333">=</span><span style="color: #0000DD; font-weight: bold">0</span>;
+      <span style="color: #008800; font-weight: bold">const</span> <span style="color: #333399; font-weight: bold">int</span> ledPin <span style="color: #333333">=</span> <span style="color: #0000DD; font-weight: bold">13</span>;
+      <span style="color: #008800; font-weight: bold">const</span> <span style="color: #333399; font-weight: bold">int</span> frontSwitchPin <span style="color: #333333">=</span> <span style="color: #0000DD; font-weight: bold">2</span>;
+      <span style="color: #008800; font-weight: bold">const</span> <span style="color: #333399; font-weight: bold">int</span> handServoPin <span style="color: #333333">=</span> <span style="color: #0000DD; font-weight: bold">5</span>;
+      <span style="color: #008800; font-weight: bold">const</span> <span style="color: #333399; font-weight: bold">int</span> boxServoPin <span style="color: #333333">=</span> <span style="color: #0000DD; font-weight: bold">6</span>;
+
+
+      <span style="color: #333399; font-weight: bold">void</span> <span style="color: #0066BB; font-weight: bold">setup</span>()
+      {
+      Serial.begin(<span style="color: #0000DD; font-weight: bold">9600</span>);
+
+      pinMode(ledPin, OUTPUT);
+
+      handServo.attach(handServoPin);
+      boxServo.attach(boxServoPin);
+      handServo.write(<span style="color: #6600EE; font-weight: bold">40.5</span>);
+      boxServo.write(<span style="color: #6600EE; font-weight: bold">40.5</span>);
+
+      <span style="color: #888888">//randomSeed(analogRead(0));</span>
+      }
+
+
+      <span style="color: #333399; font-weight: bold">void</span> <span style="color: #0066BB; font-weight: bold">loop</span>()
+      {
+      switchStatus <span style="color: #333333">=</span> digitalRead(frontSwitchPin);
+      Serial.print(<span style="background-color: #fff0f0">&quot;Switch&quot;</span>);
+      Serial.println(digitalRead(frontSwitchPin));
+      <span style="color: #888888">//action = random(1,16);</span>
+
+      <span style="color: #008800; font-weight: bold">if</span> (switchStatus <span style="color: #333333">==</span> LOW){
+      <span style="color: #888888">//Pruebas varias</span>
+      action <span style="color: #333333">=</span> <span style="color: #0000DD; font-weight: bold">0</span>;
+      }
+      <span style="color: #008800; font-weight: bold">if</span> (action <span style="color: #333333">==</span> <span style="color: #0000DD; font-weight: bold">0</span>){
+      Serial.println(boxServo.read());
+      boxServo.write(<span style="color: #0000DD; font-weight: bold">40</span>);
+      delay(<span style="color: #0000DD; font-weight: bold">2000</span>);
+      Serial.println(boxServo.read());
+      boxServo.write(<span style="color: #0000DD; font-weight: bold">0</span>);
+      delay(<span style="color: #0000DD; font-weight: bold">2000</span>);
+      boxServo.write(<span style="color: #0000DD; font-weight: bold">90</span>);
+
+      Serial.println(handServo.read());
+      handServo.write(<span style="color: #0000DD; font-weight: bold">40</span>);
+      delay(<span style="color: #0000DD; font-weight: bold">2000</span>);
+      Serial.println(handServo.read());
+      handServo.write(<span style="color: #0000DD; font-weight: bold">0</span>);
+      delay(<span style="color: #0000DD; font-weight: bold">2000</span>);
+      handServo.write(<span style="color: #0000DD; font-weight: bold">90</span>);
+      action <span style="color: #333333">++</span>;
+      }
+
+      <span style="color: #008800; font-weight: bold">else</span>{
+
+      boxServo.write(<span style="color: #0000DD; font-weight: bold">90</span>);
+      handServo.write(<span style="color: #0000DD; font-weight: bold">90</span>);
+      action <span style="color: #333333">++</span>;
+
+      }
+      }
+      </pre></div>
+
+
+
+
+
+
+
+
+
+
+
+            </div>
+
+          </div>
+
+    <footer></footer>
+
+
+  </body>
+      <script type="text/javascript" src="main.js"></script>
+</html>
