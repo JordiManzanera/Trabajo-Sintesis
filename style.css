@@ -423,7 +423,7 @@ padding: 1em;
     position: relative;
     width: 100%;
     height: 28em;
-    background-color: #dc7633;
+    background-color: #f27108;
     padding: 3em;
   }
 
@@ -461,7 +461,7 @@ padding: 1em;
   }
 
   #pasos{
-  background-color: #273746;
+  background-color: black;
   color: white;
   }
 
@@ -494,23 +494,23 @@ padding: 1em;
 
   #arrow{
     position: absolute;
-    right: 34.8em;
+    right: 36.5em;
     top: 3.5em;
   }
 
   #arrow i{
-    color: #c0392b;
+    color: red;
     font-size: 70px;
   }
 
   #arrow2{
     position: absolute;
-    right: 73.6em;
+    right: 75.6em;
     top: 3.5em;
   }
 
   #arrow2 i{
-    color: #c0392b;
+    color: red;
     font-size: 70px;
   }
 
@@ -523,7 +523,7 @@ padding: 1em;
   width:100px;
   background: white;
   border: thin solid #f27108;
-  background: #dc7633;
+  background: #f27108;
   -moz-border-radius:50px;
   -webkit-border-radius:50px;
   border-radius:50px;
@@ -531,6 +531,18 @@ padding: 1em;
   font-size: 13px;
   color: black;
 
+  }
+
+  #idea {
+    background-color: #f5f5dc;
+  }
+
+  #titulo-idea{
+    padding: 1em;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    border-bottom: black 8px outset;
   }
 
   #desarrollo{
@@ -591,7 +603,7 @@ padding: 1em;
 
   .imagenes-materiales{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr ;
   }
 
   .imagenes-materiales img{
